@@ -2,7 +2,7 @@ The password is stored in a file called `spaces in this filename` in the home di
 
 `vim "spaces in this filename"`
 
-The file contains the password:
+The password for level 3:
 `UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK`
 
 

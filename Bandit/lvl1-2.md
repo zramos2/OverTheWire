@@ -1,7 +1,8 @@
 The password is located in a file called `-`
 
 `vim ./-`
-The file contains the password:
+
+The password for level 2:
 `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`
 
 
