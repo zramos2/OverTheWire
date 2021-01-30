@@ -5,10 +5,9 @@ You need to look for the right file with properties:
 - not executable
 
 
-```
-find . -type f -size 1033c
-```  
+`find . -type f -size 1033c -exec cat {} \;`
 
+### Lets break this down and understand how to use the `find` command 
 - `.` to indicate the current path you are on
 - `-type f` => to indicate the folder
     - f : regular file
