@@ -15,6 +15,9 @@ You can use `find . -size 1033c` to find the place of where its located and find
 Or you can look up the exact properties and use `cat` to get the password. Like so:\
 `find . -type f -size 1033c -exec cat {} \;`
 
+The password for level 6:
+`DXjZPULLxYr17uwoI01bNLQbtFemEgo7`
+
 #### Lets break this down and understand how to use the `find` command 
 - `.` to indicate the current path you are on
 - `-type f` => to indicate the folder
