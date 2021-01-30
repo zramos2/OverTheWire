@@ -4,11 +4,11 @@ You need to look for the right file with properties:
 - 1033 bytes in size
 - not executable
 
-A lot of folders labeled as maybehere.  Each **maybehere** folder contains a random files with different aspects to them.\
+A lot of folders labeled as **maybehere**.  Each **maybehere** folder contains a random files with different aspects to them.\
 We are trying to find the file that meets the properties of this level.  Such as:
 - human-readable
 - 1033 bytes in size
-- not executable
+- not executable\
 We need to run a specific search.  Most of the files are readable text but only 1 file has 1033 bytes.\
 You can use `find . -size 1033c` to find the place of where its located and find the password that way.
 
