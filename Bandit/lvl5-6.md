@@ -25,7 +25,7 @@ Or you can look up the exact properties and use `cat` to get the password. Like 
 - `-size 1033c` => to indicate to find a file by size.  In this case find files with 1033 bytes inside.
     - we chose **1033** as the byte size because lvl 5-6 hints gave us that amount.
 - `-exec cat {} \;`  => `find` will execute `cat` and will substitue `{}` with the filenames found. 
-    - you can also do `find . -type f -size 1033c -exec cat +`
+    - you can also do `find . -type f -size 1033c -exec cat {}  +`
     - The difference between `;` and `+` is that with `;`, a single `cat` command for each file is exectued whereas with `+` as many files as possible are given as parameters to `cat` at once.
     - use [this](https://unix.stackexchange.com/questions/12902/how-to-run-find-exec) and [this](https://linuxaria.com/howto/linux-shell-how-to-use-the-exec-option-in-find-with-examples) for further info on `-exec` with the `find` command
 
