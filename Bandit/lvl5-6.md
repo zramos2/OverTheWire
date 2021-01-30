@@ -18,9 +18,9 @@ Or you can look up the exact properties and use `cat` to get the password. Like 
 #### Lets break this down and understand how to use the `find` command 
 - `.` to indicate the current path you are on
 - `-type f` => to indicate the folder
-    - f : regular file
-    - d : directory
-    - l : symbolic link
-    - c : character devices
+    - `f` : regular file
+    - `d` : directory
+    - `l` : symbolic link
+    - `c` : character devices
 - `-size 1033c` => to indicate to find a file by size.  In this case find files with 1033 bytes inside.
     - we chose **1033** as the byte size because lvl 5-6 hints gave us that amount.
