@@ -13,7 +13,7 @@ We are trying to find the file that meets the properties of this level.  Such as
 We need to run a specific search.  Most of the files are readable text but there is only  1 file has **1033** bytes.\
 You can use `find . -size 1033c` to find the place of where its located and find the password that way.
 
-Or you can look up the exact properties and use `**cat**` to get the password. Like so:
+Or you can look up the exact properties and use `cat` to get the password. Like so:\
 `find . -type f -size 1033c -exec cat {} \;`
 
 #### Lets break this down and understand how to use the `find` command 
