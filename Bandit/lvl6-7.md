@@ -20,7 +20,7 @@ To be more specific on the outputs:\
 The password for level 7 is:\
 `HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs`
 
-
+- - -
 
 #### Lets break this down and understand what `2>/dev/null/` means:
 - All the *permission denied* outputs that you see are coming from **standard errors** 
