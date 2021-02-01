@@ -1,4 +1,5 @@
-`find . -size 33c -user bandit7 -group bandit6`\
+`find . -size 33c -user bandit7 -group bandit6`
+
 You get different results if you use:\
 `find / -size 33c -user bandit7 -group bandit6`
 - `.` : searches inside the current working directory
