@@ -12,12 +12,13 @@ Once doing the `find / -size 33c -user bandit7 -group bandit6` command you'll no
 To be more specific on the outputs:\
 `find / -size 33c -user bandit7 -group bandit6 2>/dev/null/` 
 - You'll then notice `/var/lib/dpkg/info/bandit7.password` is the only thing thats outputted and looks a lot cleaner 
-- Please type `cat /var/lib/dpkg/info/bandit7.password` to get the password.
+- Type `cat /var/lib/dpkg/info/bandit7.password` to get the password.
 
 
 The password for level 7 is:\
 `HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs`
-
+\
+\
 #### Lets break this down and understand what `2>/dev/null/` means:
 - All the *permission denied* outputs that you see are coming from **standard errors** 
 - The `-` denotes for **standard input**
