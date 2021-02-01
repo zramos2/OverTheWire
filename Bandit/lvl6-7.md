@@ -6,6 +6,8 @@ You get different results if you use:\
 - `/` : searches for **all** files and directories
     - it means the **root** directory
 
+- - - 
+
 Once doing the `find / -size 33c -user bandit7 -group bandit6` command you'll notice **only one** of the outputs does not say permission denied.
 - `/var/lib/dpkg/info/bandit7.password` is the **one** output from the command
 
